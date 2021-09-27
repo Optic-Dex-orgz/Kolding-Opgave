@@ -8,9 +8,21 @@ html {
   box-sizing: border-box;
 }
 
+#website-max-width {
+  max-width: 1920px;
+  margin: auto;
+}
+
 /* navigation start */
 
 #navigation {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 125px;
+  grid-template-rows: 50px 50px;
+  grid-template-areas:
+    "nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav"
+    "nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav";
 }
 
 #navigation ul {
