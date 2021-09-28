@@ -66,8 +66,30 @@ html {
 /* footer start */
 
 #footer {
+  background-color: gray;
+  min-height: 200px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+#follow-us {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon-container {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  justify-content: space-around;
+}
+
+.social-media {
+  width: 100%;
+  font-size: 5rem;
+}
 /* footer end */
 
 /* media start */
