@@ -52,7 +52,6 @@ html {
 }
 
 #navigation ul li i{
-  margin: 0px 20px 0px 80px ;
   font-size: 2rem;
 }
 
@@ -61,6 +60,10 @@ html {
   text-decoration: none;
   color: black;
   max-height: 100px;
+}
+
+.search {
+  margin: 0px 20px 0px 80px;
 }
 
 /* navigation end */
