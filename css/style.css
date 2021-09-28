@@ -43,11 +43,17 @@ html {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: end;
   margin: auto 0;
 }
 
 #navigation ul li {
+  margin: 0px 20px 0px 20px;
+}
+
+#navigation ul li i{
+  margin: 0px 20px 0px 80px ;
+  font-size: 2rem;
 }
 
 #navigation ul li a {
