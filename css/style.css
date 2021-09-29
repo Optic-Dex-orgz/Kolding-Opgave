@@ -9,7 +9,7 @@ html {
 }
 
 #website-max-width {
-  max-width: 1920px;
+  max-width: 1630px;
   margin: auto;
 }
 
@@ -27,7 +27,6 @@ html {
   display: flex;
   flex-direction: row;
   max-height: 100px;
-  padding: 0 100px;
 }
 
 #navigation div a {
