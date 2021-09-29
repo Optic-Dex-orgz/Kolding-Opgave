@@ -9,7 +9,7 @@ html {
 }
 
 #website-max-width {
-  max-width: 1920px;
+  max-width: 1630px;
   margin: auto;
 }
 
@@ -69,7 +69,58 @@ html {
 /* navigation end */
 
 /* header start */
-
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 1630px;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, minmax(250px, 1fr));
+  grid-template-areas:
+  "box1 box1 box2 box3 box3"
+  "box1 box1 box4 box5 box5"
+  "box6 box7 box7 box5 box5"
+  "box6 box8 box9 box9 box10";
+  gap: 20px;
+}
+header article {
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1em;
+}
+#box1 {
+  grid-area: box1;
+}
+#box2 {
+  grid-area: box2;
+}
+#box3 {
+  grid-area: box3;
+}
+#box4 {
+  grid-area: box4;
+}
+#box5 {
+  grid-area: box5;
+}
+#box6 {
+  grid-area: box6;
+}
+#box7 {
+  grid-area: box7;
+}
+#box8 {
+  grid-area: box8;
+}
+#box9 {
+  grid-area: box9;
+}
+#box10 {
+  grid-area: box10;
+}
 /* header end */
 
 /* footer start */
@@ -82,9 +133,14 @@ footer {
   min-height: 300px;
   align-items: center;
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between;
   align-content: center;
   margin: auto;
+=======
+  justify-content: space-around;
+  align-content: center;
+>>>>>>> 0147502050206ec5bd713939cdf81f52bfd65a75
 }
 
 #footer-top h3 {
@@ -99,6 +155,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
+=======
+  margin-left: auto;
+>>>>>>> 0147502050206ec5bd713939cdf81f52bfd65a75
 }
 
 #footer-social li {
@@ -118,10 +178,13 @@ footer {
   width: 8rem;
 }
 
+<<<<<<< HEAD
 #footer-mid-container {
   background-color: rgb(180, 175, 175);
 }
 
+=======
+>>>>>>> 0147502050206ec5bd713939cdf81f52bfd65a75
 #footer-mid {
   max-width: 1630px;
   margin: 0 auto;
@@ -181,7 +244,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   display: flex;
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+  padding: 0 100px;
+>>>>>>> 0147502050206ec5bd713939cdf81f52bfd65a75
   font-size: 2rem;
 }
 
