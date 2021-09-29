@@ -78,10 +78,10 @@ html {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(4, minmax(250px, 1fr));
   grid-template-areas:
-  "box1 box1 box2 box3 box3"
-  "box1 box1 box4 box5 box5"
-  "box6 box7 box7 box5 box5"
-  "box6 box8 box9 box9 box10";
+    "box1 box1 box2 box3 box3"
+    "box1 box1 box4 box5 box5"
+    "box6 box7 box7 box5 box5"
+    "box6 box8 box9 box9 box10";
   gap: 20px;
 }
 .front-page-header article {
@@ -258,7 +258,6 @@ figure h3 {
 
 /* middle section end */
 /* footer start */
-
 footer {
   background-color: rgb(90, 88, 88);
 }
@@ -270,6 +269,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-content: center;
+  padding: 0 70px;
 }
 
 #footer-top h3 {
@@ -304,13 +304,19 @@ footer {
   width: 8rem;
 }
 
+#footer-mid-container {
+  background-color: lightgrey;
+}
+
 #footer-mid {
-  background-color: rgb(180, 175, 175);
+  max-width: 1630px;
+  margin: 0 auto;
   min-height: 300px;
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
+  padding: 0 100px;
 }
 
 #footer-mid h3 {
@@ -318,8 +324,14 @@ footer {
   font-weight: 800;
   margin-left: auto;
   color: black;
-  margin-right: 500px;
   margin-bottom: 20px;
+}
+
+#footer-mid h4 {
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 #footer-mid p {
@@ -335,12 +347,23 @@ footer {
   list-style: none;
 }
 
-#footer-mid ol li {
-  font-size: 2rem;
+#footer-mid li {
+  font-size: 1.5rem;
+}
+
+#footer-links {
+  width: 30%;
+  display: flex;
+  margin-right: 90px;
+  justify-content: space-between;
+}
+
+#footer-bottom-container {
+  background-color: rgb(175, 175, 175);
 }
 
 #footer-bottom {
-  background-color: rgb(201, 198, 193);
+  max-width: 1630px;
   min-height: 100px;
   justify-content: space-between;
   align-items: center;
