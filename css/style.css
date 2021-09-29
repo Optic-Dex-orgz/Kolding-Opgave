@@ -51,7 +51,7 @@ html {
   margin: 0px 20px 0px 20px;
 }
 
-#navigation ul li i{
+#navigation ul li i {
   font-size: 2rem;
 }
 
@@ -73,9 +73,8 @@ html {
 /* header end */
 
 /* footer start */
-
 footer {
-  background-color: rgb(90, 88, 88); 
+  background-color: rgb(90, 88, 88);
 }
 
 #footer-top {
@@ -83,28 +82,27 @@ footer {
   min-height: 300px;
   align-items: center;
   display: flex;
-  justify-content: space-around;
-  align-content: center; 
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
 }
 
 #footer-top h3 {
   font-size: 5rem;
   font-weight: 800;
   margin-left: auto;
-  color: white; 
+  color: white;
 }
-   
+
 #footer-social {
-   list-style: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-left: auto;  
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #footer-social li {
   margin: 0 50px;
-  
 }
 
 #footer-social a {
@@ -120,13 +118,17 @@ footer {
   width: 8rem;
 }
 
+#footer-mid-container {
+  background-color: rgb(180, 175, 175);
+}
 
 #footer-mid {
-  background-color: rgb(180, 175, 175);
+  max-width: 1630px;
+  margin: 0 auto;
   min-height: 300px;
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
 }
 
@@ -135,8 +137,14 @@ footer {
   font-weight: 800;
   margin-left: auto;
   color: black;
-  margin-right: 500px;
   margin-bottom: 20px;
+}
+
+#footer-mid h4 {
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 #footer-mid p {
@@ -144,33 +152,42 @@ footer {
 }
 
 #footer-mid li {
- padding: 10px ;
- list-style: none;
- 
-}
-
-#footer-mid  ol {
+  padding: 10px;
   list-style: none;
-  
 }
 
-#footer-mid ol li {
-  font-size: 2rem;
+#footer-mid ol {
+  list-style: none;
+}
+
+#footer-mid li {
+  font-size: 1.5rem;
+}
+
+#footer-links {
+  width: 30%;
+  display: flex;
+  margin-right: 90px;
+  justify-content: space-between;
+}
+
+#footer-bottom-container {
+  background-color: rgb(201, 198, 193);
 }
 
 #footer-bottom {
-  background-color: rgb(201, 198, 193);
+  max-width: 1630px;
   min-height: 100px;
   justify-content: space-between;
   align-items: center;
   display: flex;
-  padding:  0 100px;
+  margin: 0 auto;
   font-size: 2rem;
 }
 
 #footer-bottom ul {
   list-style: none;
-  display: flex; 
+  display: flex;
 }
 
 #footer-bottom li {
@@ -182,18 +199,6 @@ footer {
   text-decoration: none;
   color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer end */
 
