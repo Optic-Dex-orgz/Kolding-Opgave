@@ -78,10 +78,10 @@ header {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(4, minmax(250px, 1fr));
   grid-template-areas:
-  "box1 box1 box2 box3 box3"
-  "box1 box1 box4 box5 box5"
-  "box6 box7 box7 box5 box5"
-  "box6 box8 box9 box9 box10";
+    "box1 box1 box2 box3 box3"
+    "box1 box1 box4 box5 box5"
+    "box6 box7 box7 box5 box5"
+    "box6 box8 box9 box9 box10";
   gap: 20px;
 }
 header article {
@@ -133,14 +133,9 @@ footer {
   min-height: 300px;
   align-items: center;
   display: flex;
-<<<<<<< HEAD
-  justify-content: space-between;
-  align-content: center;
-  margin: auto;
-=======
   justify-content: space-around;
   align-content: center;
->>>>>>> 0147502050206ec5bd713939cdf81f52bfd65a75
+  padding: 0 70px;
 }
 
 #footer-top h3 {
@@ -155,10 +150,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
-=======
   margin-left: auto;
->>>>>>> 0147502050206ec5bd713939cdf81f52bfd65a75
 }
 
 #footer-social li {
@@ -178,13 +170,10 @@ footer {
   width: 8rem;
 }
 
-<<<<<<< HEAD
 #footer-mid-container {
-  background-color: rgb(180, 175, 175);
+  background-color: lightgrey;
 }
 
-=======
->>>>>>> 0147502050206ec5bd713939cdf81f52bfd65a75
 #footer-mid {
   max-width: 1630px;
   margin: 0 auto;
@@ -193,6 +182,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  padding: 0 100px;
 }
 
 #footer-mid h3 {
@@ -235,7 +225,7 @@ footer {
 }
 
 #footer-bottom-container {
-  background-color: rgb(201, 198, 193);
+  background-color: rgb(175, 175, 175);
 }
 
 #footer-bottom {
@@ -244,11 +234,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   display: flex;
-<<<<<<< HEAD
-  margin: 0 auto;
-=======
   padding: 0 100px;
->>>>>>> 0147502050206ec5bd713939cdf81f52bfd65a75
   font-size: 2rem;
 }
 
