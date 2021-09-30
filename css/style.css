@@ -101,43 +101,65 @@ html {
 }
 #box1 {
   grid-area: box1;
+  background-image: url('/img/box1.png');
+  background-size: cover;
 }
+
 #box2 {
   grid-area: box2;
+  background-image: url('/img/box1.png');
+  background-size: cover;
 }
 #box3 {
   grid-area: box3;
+  background-image: url('/img/test.png');
+  background-size: cover;
 }
 #box4 {
   grid-area: box4;
+  background-image: url('/img/box1.png');
+  background-size: cover;
 }
 #box5 {
   grid-area: box5;
+  background-image: url('/img/box1.png');
+  background-size: cover;
 }
 #box6 {
   grid-area: box6;
+  background-image: url('/img/box2.png');
+  background-size: cover;
 }
 #box7 {
   grid-area: box7;
+  background-image: url('/img/test.png');
+  background-size: cover;
 }
 #box8 {
   grid-area: box8;
+  background-image: url('/img/box1.png');
+  background-size: cover;
 }
 #box9 {
   grid-area: box9;
+  background-image: url('/img/test.png');
+  background-size: cover;
 }
 #box10 {
   grid-area: box10;
+  background-image: url('/img/box1.png');
+  background-size: cover;
 }
 /* header end */
 /* middle section start */
 
-
-.middle-grid-container
+#middle-container{
+  background-color: black;
+}
+#middle-grid-container
 {
   max-width: 1630px;
   margin: auto auto;
-  background: black;
   color: white;
   padding: 3.9vw 0.7vw;
   display:grid;
@@ -153,17 +175,12 @@ html {
 #mid-section-title {
   grid-area: mid-section-title;
   font-size: 3.5vw;
-  margin-left: 1vw;
   margin-top: 3.9vw;
 }
-.middle-grid-container div {
-  margin-left: 1vw;
-  
-}
-.middle-grid-container div h2 {
+#middle-grid-container div h2 {
   font-size: 5vw;
 }
-.middle-grid-container div h3 {
+#middle-grid-container div h3 {
   font-size: 1.5vw;
 }
 #dato1 {
@@ -184,17 +201,17 @@ html {
 #articlebox3 {
   grid-area: articlebox3;
 }
-.middle-grid-container article {
+#middle-grid-container article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 1.25vw;
 }
-.middle-grid-container article h3 {
+#middle-grid-container article h3 {
   font-size: 1.2vw;
   padding-bottom: 1.17vw;
 }
-.middle-grid-container article p {
+#middle-grid-container article p {
   font-size: 1.2vw;
 }
 #mid-section-img1 {
@@ -216,20 +233,27 @@ html {
   "mid2-articlebox figure1 figure2 figure3"
   "mid2-articlebox figure4 figure5 figure6";
   gap: 1.5vw;
-  padding: 1.5vw;
 }
 #mid2-articlebox{
   grid-area: mid2-articlebox;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 0.5vw;
+  margin-bottom: 4vw;
+  width: 25vw;
 }
 #mid2-articlebox h2{
   font-size: 2vw;
+  margin-bottom: 1.5vw;
 }
 #mid2-articlebox p{
   font-size: 1.3vw;
+}
+#middle2-grid-container figure {
+  margin-bottom: 1.5vw;
+}
+#middle2-grid-container img {
+  margin-bottom: 1.5vw;
 }
 #figure1 {
   grid-area: figure1;
@@ -257,7 +281,7 @@ figure h3 {
 #map-section {
   margin: auto auto;
   width:100%;
-  max-width: 1630px;
+  max-width: 1920px;
 }
 
 #map{
