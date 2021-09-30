@@ -69,8 +69,8 @@ html {
 }
 
 /* navigation end */
-
-/* header start */
+/* Frontpage css start */
+/* header start*/
 .front-page-header {
   padding-top: 1.5vw;
   padding-bottom: 1.5vw;
@@ -233,6 +233,7 @@ html {
   "mid2-articlebox figure1 figure2 figure3"
   "mid2-articlebox figure4 figure5 figure6";
   gap: 1.5vw;
+  margin-top: 1.5vw;
 }
 #mid2-articlebox{
   grid-area: mid2-articlebox;
@@ -293,6 +294,7 @@ figure h3 {
 }
 
 /* middle section end */
+/* Frontpage CSS end  */
 /* footer start */
 footer {
   background-color: rgb(90, 88, 88);
@@ -302,8 +304,7 @@ footer {
   max-width: 1630px;
   min-height: 300px;
   align-items: center;
-  display: flex;
-  
+  display: flex; 
   margin: auto;
   
 }
@@ -373,6 +374,7 @@ footer {
 
 #footer-mid p {
   font-size: 1.5rem;
+  color: slategrey;
 }
 
 #footer-mid li {
