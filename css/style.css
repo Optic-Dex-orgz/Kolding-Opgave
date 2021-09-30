@@ -442,6 +442,35 @@ footer {
 
 /* underside 3 start */
 
+/* navigation start */
+
+/* check navigation in frontpage */
+
+/* navigation end */
+
+/* header start */
+
+/* check header in underpage1 */
+
+/* header end */
+
+#main-contianer {
+  background-color: white;
+}
+
+#main-contianer section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  ". . section section section section section section section section" ;
+}
+
+/* footer start */
+
+/* check navigation in frontpage */
+
+/* footer end */
+
 /* underside 3 end */
 
 /* underside 4 start */
