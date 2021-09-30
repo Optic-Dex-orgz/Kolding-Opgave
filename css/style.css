@@ -70,8 +70,8 @@ html {
 
 /* header start */
 .front-page-header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
   max-width: 1630px;
   margin: auto auto;
   display: grid;
@@ -82,14 +82,20 @@ html {
     "box1 box1 box4 box5 box5"
     "box6 box7 box7 box5 box5"
     "box6 box8 box9 box9 box10";
-  gap: 20px;
+  gap: 1.5vw;
+}
+.front-page-header h2 {
+  font-size: 1.3vw;
+}
+.front-page-header p{
+  font-size: 1.1vw;
 }
 .front-page-header article {
   background: #ddd;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 1em;
+  padding: 1.25vw;
 }
 #box1 {
   grid-area: box1;
@@ -131,7 +137,7 @@ html {
   margin: auto auto;
   background: black;
   color: white;
-  padding: 50px 10px;
+  padding: 3.9vw 0.7vw;
   display:grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(4, minmax(50px, 1fr));
@@ -140,17 +146,16 @@ html {
   "dato1 articlebox1 mid-section-img1"
   "dato2 articlebox2 mid-section-img2"
   "dato3 articlebox3 mid-section-img3";
-  gap: 20px;
-  
+  gap: 1.5vw;  
 }
 #mid-section-title {
   grid-area: mid-section-title;
   font-size: 3.5vw;
-  margin-left: 100px;
-  margin-top: 50px;
+  margin-left: 1vw;
+  margin-top: 3.9vw;
 }
 .middle-grid-container div {
-  margin-left: 100px;
+  margin-left: 1vw;
   
 }
 .middle-grid-container div h2 {
@@ -181,11 +186,11 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1em;
+  padding: 1.25vw;
 }
 .middle-grid-container article h3 {
   font-size: 1.2vw;
-  padding-bottom: 15px;
+  padding-bottom: 1.17vw;
 }
 .middle-grid-container article p {
   font-size: 1.2vw;
@@ -208,21 +213,21 @@ html {
   grid-template-areas: 
   "mid2-articlebox figure1 figure2 figure3"
   "mid2-articlebox figure4 figure5 figure6";
-  gap: 20px;
-  padding: 20px;
+  gap: 1.5vw;
+  padding: 1.5vw;
 }
 #mid2-articlebox{
   grid-area: mid2-articlebox;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 50px;
+  margin-left: 0.5vw;
 }
 #mid2-articlebox h2{
   font-size: 2vw;
 }
 #mid2-articlebox p{
-  font-size: 1vw;
+  font-size: 1.3vw;
 }
 #figure1 {
   grid-area: figure1;
@@ -244,16 +249,16 @@ html {
 }
 figure h3 {
   text-align: center;
-  font-size: 1vw;
-  padding-top: 5px;
-}
-#map {
-  max-width: 1630px;
-  margin: auto auto;
+  font-size: 1.3vw;
+  padding-top: 0.3vw;
 }
 
-#map img{
-  width: 100%;
+#map{
+  max-width: 1630px;
+  margin: auto auto;
+  width:100%;
+  height:70vh; 
+  border:0;
 }
 
 /* middle section end */
