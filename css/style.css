@@ -23,6 +23,7 @@ html {
   flex-direction: row;
   max-height: 100px;
   max-width: 1630px;
+  margin: auto;
 }
 
 #navigation div a {
