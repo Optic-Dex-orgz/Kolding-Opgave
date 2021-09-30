@@ -265,12 +265,13 @@ footer {
 }
 
 #footer-top {
-  max-width: 1200px;
+  max-width: 1630px;
   min-height: 300px;
   align-items: center;
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 180px;
+  
+  margin: auto;
+  
 }
 
 #footer-top h3 {
@@ -286,13 +287,13 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
+  
 }
 
 
 
 #footer-social li {
-  padding-left: 100px;
+  padding-left: 125px;
 }
 
 #footer-social a {
