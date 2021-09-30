@@ -265,8 +265,8 @@ footer {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  align-content: center;
-  padding: 0 70px;
+  
+  
 }
 
 #footer-top h3 {
@@ -274,6 +274,7 @@ footer {
   font-weight: 800;
   margin-left: auto;
   color: white;
+  padding-left: 20px;
 }
 
 #footer-social {
@@ -307,19 +308,17 @@ footer {
 
 #footer-mid {
   max-width: 1630px;
-  margin: 0 auto;
   min-height: 300px;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  align-content: center;
   padding: 0 100px;
 }
 
 #footer-mid h3 {
   font-size: 5rem;
   font-weight: 800;
-  margin-left: auto;
+  
   color: black;
   margin-bottom: 20px;
 }
