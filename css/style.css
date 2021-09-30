@@ -450,7 +450,8 @@ navigation end */
   margin: auto auto;
   background-image: url('/img/headertest.png');
   background-size: 100%;
-  padding-top: 410px;
+  height: 579px;
+  padding-top: 420px;
 }
 
 #subpage-header-title
@@ -463,21 +464,24 @@ navigation end */
   padding-top: 50px;
   padding-left: 37px;
   
+  
 }
-#subpage-header-section
+/* header end  */
+
+#subpage2-section1
 {
   background-color: white;
   max-width: 1920px;
   margin: auto auto;
   height:402px;
 }
-#subpage-header-section div {
+#subpage2-section1 div {
   max-width: 970px;
   margin: auto auto;
   font-size: 1.05vw;
   padding-top: 118px;
 }
-/* header end  */
+
 /* footer start
 
 Look at frontpage css line 299 to see footer css
