@@ -438,7 +438,51 @@ footer {
 /* underside 1 end */
 
 /* underside 2 start */
+/* navigation start
 
+look in frontpage css line 19 to see navigation css
+
+navigation end */
+
+/* header start  */
+#subpage-header {
+  max-width: 1920px;
+  margin: auto auto;
+  background-image: url('/img/headertest.png');
+  background-size: 100%;
+  padding-top: 410px;
+}
+
+#subpage-header-title
+{
+  font-size: 1.8vw;
+  width: 860px;
+  height: 161px;
+  background-color: white;
+  margin-left: 145px;
+  padding-top: 50px;
+  padding-left: 37px;
+  
+}
+#subpage-header-section
+{
+  background-color: white;
+  max-width: 1920px;
+  margin: auto auto;
+  height:402px;
+}
+#subpage-header-section div {
+  max-width: 970px;
+  margin: auto auto;
+  font-size: 1.05vw;
+  padding-top: 118px;
+}
+/* header end  */
+/* footer start
+
+Look at frontpage css line 299 to see footer css
+
+footer end */
 /* underside 2 end */
 
 /* underside 3 start */
