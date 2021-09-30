@@ -8,11 +8,6 @@ html {
   box-sizing: border-box;
 }
 
-#website-max-width {
-  max-width: 1630px;
-  margin: auto;
-}
-
 .text-transform {
   display: inline-block;
 }
@@ -27,6 +22,7 @@ html {
   display: flex;
   flex-direction: row;
   max-height: 100px;
+  max-width: 1630px;
 }
 
 #navigation div a {
