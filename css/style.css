@@ -19,6 +19,10 @@ html {
 /* navigation start */
 
 #navigation {
+  background-color: white;
+}
+
+#navigation section{
   display: flex;
   flex-direction: row;
   max-height: 100px;
