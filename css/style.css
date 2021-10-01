@@ -532,6 +532,7 @@ footer end */
 
 #main-article-box4 {
   grid-area: main-box4;
+  max-width: 970px;
 }
 
 #main-article-box5 {
