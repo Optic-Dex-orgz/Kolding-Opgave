@@ -638,5 +638,51 @@ footer end */
 /* underside 3 end */
 
 /* underside 4 start */
+#subpage4-section1-grid{
+  width: 1920px;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, minmax(200px, 1fr));
+  grid-template-areas: 
+  "a a b b"
+  "c c d d";
+  background-color: black;
+  color: white;
+}
+#subpage4-article1 {
+  grid-area: b;
+  width: 70%;
+  margin: 2vw auto;
+}
+#subpage4-article1 h2{
+ font-size: 1.7vw;
+}
+#subpage4-article1 p{
+  font-size: 1.1vw;
+  line-height: 1.6vw;
+  padding-bottom: 2vw;
+ }
+#subpage4-article2 {
+  grid-area: c;
+  width: 70%;
+  margin: 2vw auto;
+}
+#subpage4-article2 h2{
+  font-size: 1.7vw;
+ }
+ #subpage4-article2 p{
+   font-size: 1.1vw;
+   line-height: 1.6vw;
+   padding-bottom: 2vw;
+  }
+#subpage4-img1 {
+  grid-area: a;
+  width: 100%;
+}
+#subpage4-img1 {
+  grid-area: d;
+  width: 100%;
+}
 
 /* underside 4 end */
