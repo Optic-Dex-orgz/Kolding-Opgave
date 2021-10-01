@@ -448,26 +448,26 @@ navigation end */
 #subpage-header {
   max-width: 1920px;
   margin: auto auto;
-  background-image: url('/img/headertest.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 579px;
-  max-height: 579px;
-  padding-top: 420px;
+}
+#header-figure {
+  position: relative;
 }
 
-#subpage-header-title
-{
-  font-size: 1.8vw;
-  width: 860px;
-  height: 161px;
-  background-color: white;
-  margin-left: 145px;
-  padding-top: 50px;
-  padding-left: 37px;
-  
-  
+#header-figure img {
+  width: 100%;
 }
+#header-figure figcaption {
+  position: absolute;
+  font-size: 1.8vw;
+  width: 46vw;
+  height: 8vw;
+  bottom: 0;
+  left: 5%;
+  background-color: white;
+  padding-left: 2vw;
+  padding-top: 1.5vw;
+}
+
 /* header end  */
 
 #subpage2-section1
