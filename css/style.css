@@ -346,7 +346,7 @@ footer {
 }
 
 #footer-mid-container {
-  background-color: lightgrey;
+ background-color: rgb(175, 175, 175);
 }
 
 #footer-mid {
@@ -383,12 +383,17 @@ footer {
   list-style: none;
 }
 
-#footer-mid ol {
+#footer-mid ul {
   list-style: none;
 }
 
 #footer-mid li {
   font-size: 1.8rem;
+}
+
+#footer-mid a {
+  text-decoration: none;
+  color: black;
 }
 
 #footer-links {
@@ -398,7 +403,7 @@ footer {
 }
 
 #footer-bottom-container {
-  background-color: rgb(175, 175, 175);
+  background-color: lightgrey;
 }
 
 #footer-bottom {
@@ -412,14 +417,14 @@ footer {
 }
 
 #footer-bottom ul {
-  list-style: none;
+  list-style-type: none;
   display: flex;
-  
 }
 
 #footer-bottom li {
   justify-content: space-between;
   margin: 0 20px;
+  text-decoration: none;
 }
 
 #footer-bottom a {
@@ -433,11 +438,112 @@ footer {
 
 /* media end */
 
-/* underside 1 start */
+/* subepage1 start */
 
-/* underside 1 end */
+/* navigation start */
 
-/* underside 2 start */
+/* check navigation in frontpage */
+
+/* navigation end */
+
+/* header start */
+
+/* check header in subpage2 */
+
+/* header end */
+
+/* middle section start */
+
+.main-grid-container {
+  max-width: 1630px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(600px, 1fr));
+  gap: 50px;
+  grid-template-areas:
+   "subpage1-box1 subpage1-box2" 
+   "subpage1-box3 subpage1-box4"
+   "subpage1-box5 subpage1-box6";
+}
+
+#subpage1-section1 {
+  background-color: white;
+  margin: auto;
+  height: 400px;
+  display: flex;
+}
+
+#subpage1-section1 div {
+  max-width: 60%;
+  margin: auto;
+  font-size: 2.5rem;
+}
+
+main {
+  background-color: lightgrey;
+  padding: 50px 0;
+}
+
+.subpage1-article {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.subpage1-article h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.subpage1-article p {
+  font-size: 2rem;
+}
+
+.subpage1-img {
+  width: 100%;
+}
+
+#subpage1-box1 {
+  grid-area: subpage1-box1;
+  
+}
+
+#subpage1-box2 {
+  grid-area: subpage1-box2;
+  
+}
+
+#subpage1-box3 {
+  grid-area: subpage1-box3;
+}
+
+#subpage1-box4 {
+  grid-area: subpage1-box4;
+}
+
+#subpage1-box5 {
+  grid-area: subpage1-box5;
+}
+
+#subpage1-box6 {
+  grid-area: subpage1-box6;
+}
+
+/* middle section end */
+
+/* footer start */
+
+/* check navigation in frontpage */
+
+/* footer end */
+
+
+
+
+
+/* subpage 1 end */
+
+/* subpage 2 start */
 /* navigation start
 
 look in frontpage css line 19 to see navigation css
@@ -559,9 +665,9 @@ navigation end */
 Look at frontpage css line 299 to see footer css
 
 footer end */
-/* underside 2 end */
+/* subpage 2 end */
 
-/* underside 3 start */
+/* subpage 3 start */
 
 /* navigation start */
 
@@ -571,7 +677,7 @@ footer end */
 
 /* header start */
 
-/* check header in underside2 */
+/* check header in subpage2 */
 
 /* header end */
 
@@ -635,9 +741,9 @@ footer end */
 
 /* footer end */
 
-/* underside 3 end */
+/* subpage 3 end */
 
-/* underside 4 start */
+/* subpage 4 start */
 #subpage4-section1-grid{
   width: 1920px;
   margin: auto auto;
@@ -685,4 +791,4 @@ footer end */
   width: 100%;
 }
 
-/* underside 4 end */
+/* subpage 4 end */
