@@ -684,72 +684,49 @@ footer end */
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "main-box1 main-box2 main-box4 main-box4 main-box4 main-box4 main-box4 main-box4 main-box9 main-box10";
+  grid-template-areas: ". . main-box1 main-box1 main-box1 main-box1 main-box1 main-box1 . .";
 }
 
 #main-article-box1 {
   grid-area: main-box1;
-}
-
-#main-article-box2 {
-  grid-area: main-box2;
-}
-
-#main-article-box3 {
-  grid-area: main-box3;
-}
-
-#main-article-box4 {
-  grid-area: main-box4;
   max-width: 970px;
 }
 
-#main-article-box5 {
-  grid-area: main-box5;
+#subpage3-article-container {
+  max-width: 1630px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  ". top-container1 top-container1 top-container1 top-container1 top-container1 top-container1 top-container1 top-container1 ."
+  ". mid-container1 mid-container1 mid-container1 mid-container1 mid-container1 mid-container1 mid-container1 mid-container1 ."
+  ". undermid-container1 undermid-container1 undermid-container1 undermid-container1 undermid-container1 undermid-container1 undermid-container1 undermid-container1 ."
+  ". bottom-container1 bottom-container1 bottom-container1 bottom-container1 bottom-container1 bottom-container1 bottom-container1 bottom-container1 .";
 }
 
-#main-article-box6 {
-  grid-area: main-box6;
+#article-top-container{
+  grid-area: top-container1;
 }
 
-#main-article-box7 {
-  grid-area: main-box7;
+#article-top-container h2, p {
+
 }
 
-#main-article-box8 {
-  grid-area: main-box8;
-}
-
-#main-article-box9 {
-  grid-area: main-box9;
-}
-
-#main-article-box10 {
-  grid-area: main-box10;
-}
-
-#article-top-container {
-}
-
-#article-top-container section {
-}
-
-#article-mid-container {
-}
-
-#article-mid-container section {
+#article-mid-container{
+  grid-area: mid-container1;
 }
 
 #article-undermid-container {
+  grid-area: undermid-container1;
 }
 
-#article-undermid-container section {
+#article-undermid-container img{
+  width: 100%;
+  max-height: 475px;
 }
 
-#article-bottom-container {
-}
-
-#article-bottom-container section {
+#article-bottom-container{
+  grid-area: bottom-container1;
 }
 
 /* footer start */
