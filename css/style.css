@@ -689,7 +689,10 @@ footer end */
 #main-article-box1 {
   grid-area: main-box1;
   max-width: 970px;
+  min-height: 180px;
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
 }
 
 #subpage3-article-container {
@@ -720,7 +723,7 @@ footer end */
   font-size: 1.5rem;
 }
 
-#article-mid-container{
+#article-mid-container {
   grid-area: mid-container1;
 }
 
