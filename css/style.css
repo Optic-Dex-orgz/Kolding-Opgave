@@ -866,9 +866,8 @@ footer end */
 
 /* middle section start */
 
-.foot-main-grid-container {
+#foot-main-grid-container {
   max-width: 1630px;
-  
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, minmax(200px, 1fr));
@@ -899,13 +898,12 @@ footer end */
 }
 
 
-main {
+#foot-drink {
   background-color: lightgrey;
   padding: 50px 0;
 }
 
 .foot-drink1-article {
-  width: 100%;
   margin: 50px auto;
 }
 
