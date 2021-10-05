@@ -690,8 +690,9 @@ footer end */
 
 #subpage3-article-container {
   max-width: 1630px;
+  min-height: 1500px;
   margin: auto;
-  margin-bottom: 400px;
+  margin-bottom: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
