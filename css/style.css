@@ -469,8 +469,7 @@ footer {
 
 #subpage1-section1 {
   max-width: 1000px;
-  background-color: white;
-  margin: auto;
+  margin: 0 auto;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -498,11 +497,11 @@ main {
 
 .subpage1-article p {
   font-size: 2rem;
+  
 }
 
 .subpage1-img {
   width: 100%;
-  min-height: 600px;
 }
 
 #subpage1-box1 {
