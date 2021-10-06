@@ -96,6 +96,9 @@ html {
 .front-page-header p {
   font-size: 1.1vw;
 }
+.front-page-header h2,.front-page-header p{
+  background-color: rgba(220, 220, 220, 0.801);
+}
 .front-page-header article {
   background: #ddd;
   display: flex;
