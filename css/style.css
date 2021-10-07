@@ -763,11 +763,13 @@ footer end */
 
 #article-undermid-container {
   grid-area: undermid-container1;
+  height: 579px;
+  overflow: hidden;
 }
 
 #article-undermid-container img {
   width: 100%;
-  max-height: 475px;
+  
 }
 
 #article-bottom-container {
