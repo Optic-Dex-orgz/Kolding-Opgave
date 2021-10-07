@@ -573,8 +573,6 @@ navigation end */
 }
 #header-figure {
   position: relative;
-  overflow: hidden;
-  height: 579px;
 }
 
 #header-figure img {
