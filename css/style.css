@@ -645,12 +645,10 @@ navigation end */
   margin: auto auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(5, minmax(10px, 1fr));
+  grid-template-rows: repeat(3, minmax(10px, 1fr));
   grid-template-areas:
     "a a b"
-    "a a b"
     "c c b"
-    "d d b"
     "d d b";
   gap: 1.5vw;
   padding-top: 4vw;
@@ -668,8 +666,7 @@ navigation end */
 #subpage2-section3-img1 {
   grid-area: c;
   width: 100%;
-  margin-top: 1vw;
-  margin-bottom: 2vw;
+  margin-top: 2vw;
 }
 #subpage2-section3-article2 {
   grid-area: d;
