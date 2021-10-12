@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Webshop
-    </title>
+    <title>Webshop</title>
 </head>
 <body>
     <!-- nav start  -->
@@ -36,16 +35,35 @@
     </header>
     <!-- header end  -->
     <!-- middle start  -->
+    <section id="buybasket">
+         
+        <figure>
+         <input id="buyicon" type="checkbox">
+         <label for="buyicon">
+        <img src="img/buybasket.png" alt="buybasket"></label>
+        <figcaption id="basket">
+            <h1>Indkøbsvogn</h1>
+            <p id="items"></p>
+            <p id="items2"></p>
+            <p id="items3"></p>
+            <p id="items4"></p>
+            <p id="items5"></p>
+            <p id="items6"></p>
+            <p id="items7"></p>
+            <p id="items8"></p>
+            <p id="sum">Du har ikke købt noget endnu</p>
+        </figcaption>
+    </figure>
+        
+    </section>
     <section id="webshop-container-grid">
         <figure id="shopbox1">
             <img src="img/test2.png" alt="test-image">
             <figcaption>
                 <h3>Pris</h3>
                 <p>100 kr</p>
-                <form action="post">
-                <input type="text" placeholder="Indtast antal"> <br>
-                <input type="submit" value="Læg i kurven">
-                </form>
+                <input id="shop1" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping1()" type="submit" value="Læg i kurven">
             </figcaption>
         </figure>
         <figure id="shopbox2">
@@ -53,10 +71,8 @@
             <figcaption>
                 <h3>Pris</h3>
                 <p>100 kr</p>
-                <form action="post">
-                    <input type="text" placeholder="Indtast antal"> <br>
-                    <input type="submit" value="Læg i kurven">
-                    </form>
+                <input id="shop2" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping2()" type="submit" value="Læg i kurven">
             </figcaption>
         </figure>
         <figure id="shopbox3">
@@ -64,10 +80,8 @@
             <figcaption>
                 <h3>Pris</h3>
                 <p>100 kr</p>
-                <form action="post">
-                    <input type="text" placeholder="Indtast antal"> <br>
-                    <input type="submit" value="Læg i kurven">
-                    </form>
+                <input id="shop3" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping3()" type="submit" value="Læg i kurven">
             </figcaption>
         </figure>
         <figure id="shopbox4">
@@ -75,10 +89,8 @@
             <figcaption>
                 <h3>Pris</h3>
                 <p>100 kr</p>
-                <form action="post">
-                    <input type="text" placeholder="Indtast antal"> <br>
-                    <input type="submit" value="Læg i kurven">
-                    </form>
+                <input id="shop4" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping4()" type="submit" value="Læg i kurven">
             </figcaption>
         </figure>
         <figure id="shopbox5">
@@ -86,10 +98,8 @@
             <figcaption>
                 <h3>Pris</h3>
                 <p>100 kr</p>
-                <form action="post">
-                    <input type="text" placeholder="Indtast antal"> <br>
-                    <input type="submit" value="Læg i kurven">
-                    </form>
+                <input id="shop5" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping5()" type="submit" value="Læg i kurven">
             </figcaption>
         </figure>
         <figure id="shopbox6">
@@ -97,10 +107,8 @@
             <figcaption>
                 <h3>Pris</h3>
                 <p>100 kr</p>
-                <form action="post">
-                    <input type="text" placeholder="Indtast antal"> <br>
-                    <input type="submit" value="Læg i kurven">
-                    </form>
+                <input id="shop6" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping6()" type="submit" value="Læg i kurven">
             </figcaption>
         </figure>
         <figure id="shopbox7">
@@ -108,10 +116,8 @@
             <figcaption>
                 <h3>Pris</h3>
                 <p>100 kr</p>
-                <form action="post">
-                    <input type="text" placeholder="Indtast antal"> <br>
-                    <input type="submit" value="Læg i kurven">
-                    </form>
+                <input id="shop7" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping7()" type="submit" value="Læg i kurven">
             </figcaption>
         </figure>
         <figure id="shopbox8">
@@ -119,10 +125,8 @@
             <figcaption>
                 <h3>Pris</h3>
                 <p>100 kr</p>
-                <form action="post">
-                    <input type="text" placeholder="Indtast antal"> <br>
-                    <input type="submit" value="Læg i kurven">
-                    </form>
+                <input id="shop8" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping8()" type="submit" value="Læg i kurven">
             </figcaption>
         </figure>
     </section>
@@ -228,5 +232,6 @@
         </section>
         
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
