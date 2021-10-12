@@ -91,15 +91,22 @@ html {
   gap: 1.5vw;
 }
 .front-page-header h2 {
+  background-color: rgba(220, 220, 220, 0.801);
   font-size: 1.3vw;
 }
 .front-page-header p {
+  background-color: rgba(220, 220, 220, 0.801);
   font-size: 1.1vw;
 }
 .front-page-header h2,
-.front-page-header p {
-  background-color: rgba(220, 220, 220, 0.801);
+.front-page-header p,
+.front-page-header a{
+  padding: 0 1vw;
+  color: black;
+  text-decoration: none;
+  
 }
+
 .front-page-header article {
   background: #ddd;
   display: flex;
@@ -843,6 +850,43 @@ footer end */
 /* subpage 4 end */
 
 /* webshop start  */
+#buybasket {
+  max-width: 1630px;
+  margin: auto auto;
+ }
+
+#buybasket figure {
+max-width: 75px;
+margin: auto auto ;
+position: relative;
+
+}
+#buybasket img {
+  width: 100%;
+}
+#buybasket h1{
+  font-size: 1.5vw;
+}
+#buybasket p{
+  font-size: 1.3vw;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+#basket{
+  display: none;
+  width: 400px;
+  text-align: center;
+  background: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: absolute;
+  left: -155px;
+}
+#buyicon:checked ~ #basket {
+  display: block;
+}
 #webshop-container-grid {
   max-width: 1630px;
   margin: auto auto;
@@ -868,7 +912,7 @@ input[type="submit"] {
   margin: 1vw 0;
   padding: 0 0.5vw;
 }
-input[type="text"] {
+input[type="number"] {
   font-size: 1.1vw;
   width: 7vw;
   text-align: center;
