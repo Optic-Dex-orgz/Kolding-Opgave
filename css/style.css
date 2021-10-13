@@ -115,13 +115,13 @@ html {
 }
 #box1 {
   grid-area: box1;
-  background-image: url("/img/bibliotek.jpg");
+  background-image: url("img/bibliotek.jpg");
   background-size: cover;
 }
 
 #box2 {
   grid-area: box2;
-  background-image: url("/img/grafiskbygning.jpg");
+  background-image: url("../img/grafiskbygning.jpg");
   background-size: cover;
 }
 #box3 {
@@ -528,7 +528,7 @@ footer {
 
 .subpage1-img {
   width: 100%;
-  height: 100%;
+  height: 35vw;
 }
 
 #subpage1-box1 {
