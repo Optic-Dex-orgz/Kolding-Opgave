@@ -100,11 +100,10 @@ html {
 }
 .front-page-header h2,
 .front-page-header p,
-.front-page-header a{
+.front-page-header a {
   padding: 0 1vw;
   color: black;
   text-decoration: none;
-  
 }
 
 .front-page-header article {
@@ -853,28 +852,27 @@ footer end */
 #buybasket {
   max-width: 1630px;
   margin: auto auto;
- }
+}
 
 #buybasket figure {
-max-width: 75px;
-margin: auto auto ;
-position: relative;
-
+  max-width: 75px;
+  margin: auto auto;
+  position: relative;
 }
 #buybasket img {
   width: 100%;
 }
-#buybasket h1{
+#buybasket h1 {
   font-size: 1.5vw;
 }
-#buybasket p{
+#buybasket p {
   font-size: 1.3vw;
 }
 
 input[type="checkbox"] {
   display: none;
 }
-#basket{
+#basket {
   display: none;
   width: 400px;
   text-align: center;
