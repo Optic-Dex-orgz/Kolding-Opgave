@@ -121,7 +121,7 @@ html {
 
 #box2 {
   grid-area: box2;
-  background-image: url("/img/grafiskbygning.jpg");
+  background-image: url("../img/grafiskbygning.jpg");
   background-size: cover;
 }
 #box3 {
