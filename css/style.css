@@ -115,7 +115,7 @@ html {
 }
 #box1 {
   grid-area: box1;
-  background-image: url("/img/bibliotek.jpg");
+  background-image: url("img/bibliotek.jpg");
   background-size: cover;
 }
 
