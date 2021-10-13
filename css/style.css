@@ -115,7 +115,7 @@ html {
 }
 #box1 {
   grid-area: box1;
-  background-image: url("img/bibliotek.jpg");
+  background-image: url("../img/bibliotek.jpg");
   background-size: cover;
 }
 
@@ -126,42 +126,42 @@ html {
 }
 #box3 {
   grid-area: box3;
-  background-image: url("/img/kunst2.jpg");
+  background-image: url("../img/kunst2.jpg");
   background-size: cover;
 }
 #box4 {
   grid-area: box4;
-  background-image: url("/img/mediegrafiker2.jpg");
+  background-image: url("../img/mediegrafiker2.jpg");
   background-size: cover;
 }
 #box5 {
   grid-area: box5;
-  background-image: url("/img/natteliv_livemusik.jpg");
+  background-image: url("../img/natteliv_livemusik.jpg");
   background-size: cover;
 }
 #box6 {
   grid-area: box6;
-  background-image: url("/img/bybillede_havn.jpg");
+  background-image: url("../img/bybillede_havn.jpg");
   background-size: cover;
 }
 #box7 {
   grid-area: box7;
-  background-image: url("/img/tojdesign.jpg");
+  background-image: url("../img/tojdesign.jpg");
   background-size: cover;
 }
 #box8 {
   grid-area: box8;
-  background-image: url("/img/cafe.jpg");
+  background-image: url("../img/cafe.jpg");
   background-size: cover;
 }
 #box9 {
   grid-area: box9;
-  background-image: url("/img/trafik.jpg");
+  background-image: url("../img/trafik.jpg");
   background-size: cover;
 }
 #box10 {
   grid-area: box10;
-  background-image: url("/img/indkobscenter.jpg");
+  background-image: url("../img/indkobscenter.jpg");
   background-size: cover;
 }
 /* header end */
