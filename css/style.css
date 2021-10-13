@@ -882,6 +882,16 @@ input[type="checkbox"] {
   position: absolute;
   left: -155px;
 }
+#basket p{
+  display: inline-block;
+}
+#basket img{
+  width:4%;
+  margin-left: 30px;
+}
+#cross1,#cross2,#cross3,#cross4,#cross5,#cross6,#cross7,#cross8 {
+  display: none;
+}
 #buyicon:checked ~ #basket {
   display: block;
 }
