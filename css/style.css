@@ -1,11 +1,19 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url('../font/OpenSans-Regular.ttf');
+}
+
 html {
   font-size: 62.5%;
 }
-
+body {
+  background-color: #54F2F2;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: OpenSans-Regular;
 }
 
 .text-transform {
@@ -19,7 +27,7 @@ html {
 /* navigation start */
 
 #navigation {
-  background-color: white;
+  background-color: #042A2B;
 }
 
 #navigation section {
@@ -64,7 +72,7 @@ html {
 #navigation ul li a {
   font-size: 2rem;
   text-decoration: none;
-  color: black;
+  color: #54F2F2 ;
   max-height: 100px;
 }
 
@@ -91,11 +99,11 @@ html {
   gap: 1.5vw;
 }
 .front-page-header h2 {
-  background-color: rgba(220, 220, 220, 0.801);
+  background-color: #54f2f2c0;
   font-size: 1.3vw;
 }
 .front-page-header p {
-  background-color: rgba(220, 220, 220, 0.801);
+  background-color: #54f2f2c0 ;
   font-size: 1.1vw;
 }
 .front-page-header h2,
@@ -107,7 +115,6 @@ html {
 }
 
 .front-page-header article {
-  background: #ddd;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -168,7 +175,7 @@ html {
 /* middle section start */
 
 #middle-container {
-  background-color: black;
+  background-color: #5EB1BF;
 }
 #middle-grid-container {
   max-width: 1630px;
@@ -333,7 +340,7 @@ html {
 /* Frontpage CSS end  */
 /* footer start */
 footer {
-  background-color: rgb(90, 88, 88);
+  background-color: #042A2B ;
 }
 
 #footer-top {
@@ -376,7 +383,7 @@ footer {
 }
 
 #footer-mid-container {
-  background-color: rgb(175, 175, 175);
+  background-color: #5EB1BF 
 }
 
 #footer-mid {
@@ -391,8 +398,6 @@ footer {
 #footer-mid h3 {
   font-size: 5rem;
   font-weight: 800;
-
-  color: black;
   margin-bottom: 20px;
 }
 
@@ -405,7 +410,6 @@ footer {
 
 #footer-mid p {
   font-size: 1.5rem;
-  color: slategrey;
 }
 
 #footer-mid li {
@@ -433,7 +437,7 @@ footer {
 }
 
 #footer-bottom-container {
-  background-color: lightgrey;
+  background-color: #54F2F2 ;
 }
 
 #footer-bottom {
@@ -507,7 +511,7 @@ footer {
 }
 
 #subpage1 {
-  background-color: lightgrey;
+  background-color: #5EB1BF ;
   padding: 50px 0;
 }
 
@@ -593,16 +597,15 @@ navigation end */
   height: 8vw;
   bottom: 0;
   left: 5%;
-  background-color: white;
   padding-left: 2vw;
   padding-right: 2vw;
   padding-top: 1.5vw;
+  background-color: #54F2F2  ;
 }
 
 /* header end  */
 
 #subpage2-section1 {
-  background-color: white;
   max-width: 1920px;
   margin: auto auto;
   height: 28vw;
@@ -617,7 +620,7 @@ navigation end */
 #subpage2-section2 {
   max-width: 1920px;
   margin: auto auto;
-  background-color: black;
+  background-color: #5EB1BF ;
   color: white;
 }
 #subpage2-section2-grid {
@@ -702,7 +705,6 @@ footer end */
 /* header end */
 
 #main-container {
-  background-color: white;
   padding: 50px 0;
 }
 
@@ -807,7 +809,7 @@ footer end */
   grid-template-areas:
     "a b"
     "c d";
-  background-color: black;
+  background-color: #5EB1BF ;
   color: white;
 }
 #subpage4-article1 {
@@ -965,7 +967,7 @@ input[type="number"] {
 }
 
 #subpage5-main {
-  background-color: lightgrey;
+  background-color: #5EB1BF ;
   padding: 50px 0;
 }
 
